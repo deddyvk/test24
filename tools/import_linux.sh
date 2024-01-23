@@ -1,0 +1,1 @@
+curl localhost/sms/index.php/sms/sms_jadwal/

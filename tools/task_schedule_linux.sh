@@ -1,0 +1,1 @@
+crontab -l | { cat; echo "*/5 * * * * /home/sms/tools/import_linux.sh"; } | SMSJadwal -

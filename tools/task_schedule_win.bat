@@ -1,0 +1,1 @@
+SCHTASKS /Create /SC DAILY /TN JadwalHapusFile /TR C:\wamp\www\melcosh\tools\import_win.bat /ST 09:00

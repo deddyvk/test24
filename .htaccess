@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|assets)
+
+#ini untuk diupload
+#RewriteRule ^(.*)$ /index.php/$1 [L]
+
+#ini untuk dilocalhost
+RewriteRule ^(.*)$ /test24/index.php/$1 [L]
